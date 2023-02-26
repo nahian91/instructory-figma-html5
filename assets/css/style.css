@@ -44,6 +44,11 @@ body {
 .btn.btn-primary:hover {
   background-color: #333;
 }
+.btn.btn-border {
+  padding: 11px 51.5px;
+  border: 1px solid #0099FF;
+  color: #0099FF;
+}
 
 /* Variable */
 /* Colors */
@@ -354,4 +359,25 @@ h6 {
 }
 .header__menu-link:hover {
   color: #0099FF;
+}
+
+/* Bannar */
+.bannar {
+  padding: 49px 0 120px;
+}
+.bannar__title {
+  font-size: 60px;
+  line-height: 66px;
+  letter-spacing: -0.015em;
+}
+.bannar__desc {
+  margin: 32px 0 40px;
+  font-size: 18px;
+  line-height: 28.8px;
+}
+.bannar__btn {
+  margin-right: 16px;
+}
+.bannar__btn.btn-primary {
+  padding: 12px 38.5px;
 }/*# sourceMappingURL=style.css.map */

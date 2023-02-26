@@ -1,0 +1,19 @@
+.bannar{
+    padding: 49px 0 120px;
+    &__title {
+        font-size: 60px;
+        line-height: 66px;
+        letter-spacing: -0.015em;
+    }
+    &__desc {
+        margin: 32px 0 40px;
+        font-size: 18px;
+        line-height: 28.8px;
+    }
+    &__btn {
+        margin-right: 16px;
+        &.btn-primary{
+            padding: 12px 38.5px;
+        }
+    }
+}

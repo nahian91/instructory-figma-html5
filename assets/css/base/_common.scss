@@ -39,4 +39,9 @@ body{
             background-color: $link_hover;
         }
     }
+    &.btn-border{
+        padding: 11px 51.5px;
+        border: 1px solid $primary_color;
+        color: $primary_color;
+    }
 }
