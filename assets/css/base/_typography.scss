@@ -1,0 +1,9 @@
+
+$sizes: (h1, 56px, 61.6px), (h2, 48px, 52.8px), (h3, 40px, 44px), (h4, 32px, 35.4px), (h5, 24px, 26.4px), (h6, 20px, 22px);
+
+@each $name, $font-size, $line-height in $sizes {
+    #{$name} {
+        font-size: $font-size;
+        line-height: $line-height;
+    }
+}
