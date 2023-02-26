@@ -1,0 +1,14 @@
+.header{
+    padding: 32px 0;
+    border-bottom: 1px solid $border_color;
+    &__menu-link{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28.8px;
+        display: block;
+        margin: 0 20px;
+        &:hover {
+            color: $primary_color;
+        }
+    }
+}

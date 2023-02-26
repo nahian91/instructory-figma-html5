@@ -23,3 +23,20 @@ body{
     line-height: 24px;
     color: $text_color;
 }
+
+.btn{
+    display: inline-block;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: capitalize;
+    &.btn-primary{
+        padding: 12px 65.5px;
+        background-color: $primary_color;
+        color: $white;
+        &:hover{
+            background-color: $link_hover;
+        }
+    }
+}

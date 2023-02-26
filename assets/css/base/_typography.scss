@@ -7,3 +7,17 @@ $sizes: (h1, 56px, 61.6px), (h2, 48px, 52.8px), (h3, 40px, 44px), (h4, 32px, 35.
         line-height: $line-height;
     }
 }
+
+$aligns: left, center, right, justify; 
+@each $align in $aligns {
+    .text-#{$align} {
+        text-align: $align;
+    }
+}
+
+$cases: lowercase, capitalize, uppercase; 
+@each $case in $cases {
+    .text-#{$case} {
+        text-transform: $case;
+    }
+}
