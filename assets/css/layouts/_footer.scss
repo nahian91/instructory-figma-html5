@@ -1,0 +1,71 @@
+.footer{
+    background-color: $bg_primary;
+    padding: 92.88px 0 80px;
+    &__logo {
+        margin-bottom: 32px;
+    }
+    &__desc {
+        max-width: 307px;
+        font-size: 18px;
+        line-height: 28.8px;
+        color: #494949;
+        margin-bottom: 32px;
+    }
+    &__social {
+        display: inline-block;
+        background-color: #fff;
+        width: 32px;
+        height: 32px;
+        text-align: center;
+        line-height: 32px;
+        margin-right: 16px;
+        transition: .3s;
+        &:hover{
+            background-color: $primary_color;
+            color: $white;
+        }
+    }
+    &__title {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 40px;
+    }
+    &__link {
+        display: block;
+        font-size: 18px;
+        line-height: 28.8px;
+        color: #494949;
+        margin-bottom: 20px;
+        transition: .3s;
+        &:hover{
+            color: $primary_color;
+        }
+    }
+    &__last {
+        font-size: 18px;
+        line-height: 28.8px;
+        margin-bottom: 32px;
+    }
+    &__form {
+        input[type="email"] {
+            background-color: #333;
+            border: 0;
+            padding: 12.5px 24px;
+            width: 100%;
+            color: #999;
+            border-radius: 4px;
+            font-size: 18px;
+            line-height: 28.8px;
+        }
+        input[type="submit"] {
+            background-color: #0099FF;
+            margin-top: 24px;
+            padding: 12.5px 57px;
+            border: 0;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 18px;
+            line-height: 28.8px;
+        }
+    }
+}

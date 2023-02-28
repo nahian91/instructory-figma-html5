@@ -1,0 +1,17 @@
+.breadcumb {
+    background-color: $primary_color;
+    color: $white;
+    padding: 120px 0;
+    &__title {
+        font-size: 60px;
+        line-height: 66px;
+        margin-bottom: 20px;
+        letter-spacing: -0.015em;
+    }
+    &__desc {
+        max-width: 700px;
+        margin: 0 auto;
+        font-size: 18px;
+        line-height: 28.8px;
+    }
+}
