@@ -7,9 +7,13 @@
     }
     &__title {
         font-weight: 700;
-        font-size: 48px;
-        line-height: 66.24px;
+        font-size: 40px;
+        line-height: 50px;
         margin: 16px 0 24px;
+        @include min-xx-large {
+            font-size: 48px;
+            line-height: 66.24px;
+        }
     }
     &__desc {
         margin-bottom: 25px;

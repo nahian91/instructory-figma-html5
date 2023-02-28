@@ -2,8 +2,11 @@
     &__box {
         background-color: #333;
         color: #fff;
-        padding: 110px 96px;
+        padding: 50px;
         border-radius: 4px;
+        @include min-x-large {
+            padding: 110px 96px;
+        }
     }
     &__title {
         font-size: 32px;

@@ -14,8 +14,12 @@
     &__title {
         margin-top: 16px;
         margin-bottom: 24px;
-        font-size: 28px;
-        line-height: 38.5px;
+        font-size: 22px;
+        line-height: 24px;
+        @include min-xx-large {
+            font-size: 28px;
+            line-height: 38.5px;            
+        }
     }
     &__desc{
         color: #494949;

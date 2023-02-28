@@ -13,9 +13,22 @@ $grid-columns: 12;
 $grid-xxl-breakpoint: 1400px;
 $grid-xl-breakpoint: 1200px;
 $grid-lg-breakpoint: 992px;
-$grid-md-breakpoint: 768;
-$grid-sm-breakpoint: 576;
+$grid-md-breakpoint: 768px;
+$grid-sm-breakpoint: 576px;
 $grid-xs-breakpoint: 575px;
+
+
+@media (min-width: $grid-md-breakpoint) {
+    .container{
+        width: 750px;
+    }
+    @for $i from 1 through $grid-columns {
+        .col-md-#{$i} {
+            width: (100 / $grid-columns) * $i * 1%;
+            padding: 15px;
+        }
+    }
+}
 
 @media (min-width: $grid-lg-breakpoint) {
     .container{
