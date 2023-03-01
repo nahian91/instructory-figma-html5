@@ -8,6 +8,10 @@
         box-shadow: 0px 10px 20px rgba(164, 217, 253, 0.15);
         border-radius: 4px;
         border: 1px solid #ddd;
+        margin-bottom: 30px;
+        @include min-large {
+            margin-bottom: 0;
+        }
     }
     &__title {
         font-size: 28px;

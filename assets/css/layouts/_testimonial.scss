@@ -1,5 +1,11 @@
 .testimonial {
 	padding: 120px 0 102px;
+    &__single{
+        margin-bottom: 30px;
+        @include min-large{
+            margin-bottom: 0;
+        }
+    }
     &__titlte {
         font-weight: 700;
         font-size: 48px;

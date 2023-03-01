@@ -9,7 +9,10 @@
         margin: 20px 0 40px;
     }
     &__info {
-        margin-bottom: 160px;
+        margin-bottom: 30px;
+        @include min-large{
+            margin-bottom: 160px;
+        }
         li {
             margin-bottom: 20px;
             i {

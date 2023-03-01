@@ -8,6 +8,12 @@
             text-align: left;
         }
     }
+    &__menu{
+        display: none;
+        @include min-large{
+            display: flex;
+        }
+    }
     &__menu-link{
         font-weight: 500;
         font-size: 18px;
@@ -21,12 +27,20 @@
     &__btn{
         display: block;
         text-align: center;
-        margin: 0 auto;
+        margin: 20px auto;
         padding: 12px 35px !important;
         text-align: center;
         width: 200px;
         @include min-large {
             width: auto;
+            margin: auto;
         }
+    }
+}
+
+.slicknav_menu{
+    display: block;
+    @include min-large{
+        display: none;
     }
 }
